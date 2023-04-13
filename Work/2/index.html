@@ -2,35 +2,184 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Практическое занятие № 2</title>
+    <title>Ссылки, изображения и таблицы</title>
     <style>
-        ol{
-            display: inline-block;
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
         }
     </style>
 </head>
 <body>
-    <ol reversed>
-        <li>Первый</li>
-        <li>Второй</li>
-        <li>Третий</li>
-        <li>Четвертый</li>
-        <li>Пятый</li>
-    </ol><br>
-    <a href="https://www.odin.study/ru/Activity/Info/798685"><img src="/HTML/img/Smile.jpg" alt="Вход на портал Odin"></a><br>
-    <ol>
-        <li>Первый</li>
-        <li>Второй</li>
-        <li>Третий</li>
-        <li>Четвертый</li>
-        <li>Пятый</li>
-    </ol>
-    <ol>
-        <li>Первый</li>
-        <li>Второй</li>
-        <li>Третий</li>
-        <li>Четвертый</li>
-        <li>Пятый</li>
-    </ol>
+    <h2>Ссылки</h2>
+    <a href="homework.html">Ссылка</a>
+    <a href="http://ok.ru" target="_blank">Стороний сайт</a>
+    <h2>Меню сайта</h2>
+    <nav>
+        <a href="http://ya.ru" target="_blank">Yandex</a>
+        <a href="http://mail.ru" target="_blank">Mail.ru</a>
+        <a href="http://webref.ru" target="_blank">WebReference</a>
+    </nav>
+    <a href="callto:89994443322">Позвоните нам</a><br>
+    <a href="mailto:example@gmail.com">Напишите нам</a><br>
+    <h2>Картинки</h2>
+    <a href="https://yandex.ru/images/search?from=tabbar&text=майк%20вазовский" target="_blank">
+        <img src="img/mike.jpg" alt="mike vazovski" width="200" title="Mike Vazovski">
+    </a>
+    <ul>
+        <li><a href="">Ссылка 1</a></li>
+        <li><a href="">Ссылка 2</a></li>
+        <li><a href="">Ссылка 3</a></li>
+    </ul>
+    <h2>Таблицы</h2>
+    <table>
+        <caption>Растояние до городов</caption>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Город</th>
+                <th>Расстояние (км)</th>
+                <th>GMT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Москва</td>
+                <td>3000</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Лондон</td>
+                <td>8000</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Владивосток</td>
+                <td>3000</td>
+                <td>+10</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <table>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="">Ссылка 1</a></li>
+                    <li><a href="">Ссылка 2</a></li>
+                    <li><a href="">Ссылка 3</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="">Ссылка 4</a></li>
+                    <li><a href="">Ссылка 5</a></li>
+                    <li><a href="">Ссылка 6</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <p style="column-count: 2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <br><table>
+        <tr>
+            <td rowspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="2" rowspan="5">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+    </table>
 </body>
 </html>
