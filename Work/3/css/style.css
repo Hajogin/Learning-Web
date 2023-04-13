@@ -1,0 +1,32 @@
+header ul{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside-left{
+    border: solid 1px black;
+    height: 500px;
+    padding-right: 20px;
+}
+aside-right{
+    border: solid 1px black;
+    height: 500px;
+    padding-right: 20px;
+}
+.center{
+    border: solid 1px black;
+    height: 500px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 78%;
+}
+footer{
+    border: solid 1px black;
+    padding-bottom: 100px;
+    margin-top: 10px;
+}
