@@ -2,9 +2,68 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Верстка страниц</title>
+    <style>
+        header, main, footer, article,div {
+            border: 1px solid;
+            margin-top: 10px;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        article {
+            width: 300px;
+        }
+        div {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-
+    <select>
+        <option>Item 1</option>
+        <option>Item 2</option>
+        <option>Item 3</option>
+        <option>Item 4</option>
+        <option>Item 5</option>
+    </select>
+    <br><br>
+    <textarea rows="5" cols="50" placeholder="Text text"></textarea><br><br>
+    <label>
+        <span>ФИО</span>
+        <input type="text" placeholder="Введите данные...">
+    </label>
+    <br><br>
+    <table style="width: 100%;" border="1">
+        <tr>
+            <td colspan="3">header</td>
+        </tr>
+        <tr>
+            <td>left bar</td>
+            <td>content</td>
+            <td>right bar</td>
+        </tr>
+        <tr>
+            <td colspan="3">footer</td>
+        </tr>
+    </table>
+    <header>
+        header
+    </header>
+    <main>
+        <article>left bar</article>
+        <div>
+            <section>section 1</section>
+            <section>section 2</section>
+            <section>section 3</section>
+            <section>section 4</section>
+        </div>
+        <article>right bar</article>
+    </main>
+    <footer>
+        footer
+    </footer>
 </body>
 </html>
