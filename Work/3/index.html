@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+    <form name="my_form">
+        <fieldset>
+            <legend>Вторая мировая война</legend>
+            <input type="radio" name="WWII" value="first">1914-1918<br>
+            <input type="radio" name="WWII" value="second">1941-1945<br>
+            <input type="radio" name="WWII" value="third">1939-1945<br>
+            <input type="button" name="check" value="Проверить">
+        </fieldset>
+        <fieldset>
+            <legend>Форма регистрации</legend>
+            <label for="FIO">Ваше ФИО</label>
+            <input type="text" name="fullname" id="FIO" placeholder="Иванов Иван Иванович" required><br><br>
+            <label for="email">Ваш email</label>
+            <input type="email" name="email" id="email" placeholder="exampl@mail.com" required><br><br>
+            <label for="login">Ваш логин</label>
+            <input type="text" name="login" id="login" placeholder="superlogin2000" required><br><br>
+            <label for="phone_number">Ваш номер телефона</label>
+            <input type="tel" name="phone" id="phone_number" placeholder="89998887766"><br><br>
+            <label for="pass">Ваш пароль</label>
+            <input type="password" name="pass" id="pass"><br><br>
+            <input type="submit" name="send" value="Зарегистрироваться">
+            <input type="reset" name="clear" value="Очистить форму">
+        </fieldset>
+        <fieldset>
+            <legend>Опрос</legend>
+            <label for="favorite_hero">Кто ваш любимый герой</label><br><br>
+            <select name="hero" id="favorite_hero" multiple>
+                <option value="7_gnomov">7 гномов</option>
+                <option selected disabled>Спанчбоб</option>
+                <option value="white_face">Белоснежка</option>
+                <option value="whitch">Ведьма</option>
+                <option value="mount">Гора</option>
+            </select>
+            <br><br>
+            <label for="addit">Почему?</label><br>
+            <textarea id="addit" cols="20" rows="10"></textarea><br><br>
+            <input type="color" value="#00ff00"><br><br>
+            <input type="datetime-local"><br><br>
+            <input type="number" max="20" min="-10" step="2"><br><br>
+            <button>Ответить</button>
+        </fieldset>
+    </form>
+    <header>
+        <div class="logo">
+            <img src="">
+        </div>
+        <nav>
+            <a href="">Тарифы</a>
+            <a href="">О компании</a>
+            <a href="">Акции</a>
+        </nav>
+        <div class="contacts">
+            <a href="callto:8888888888">8888888888</a>
+            <a href="emailto:example@mail.com">example@mail.com</a>
+        </div>
+    </header>
+    <main>
+        <section class="tarif">
+            <article>
+                <h2>Тариф 1</h2>
+                <p>Условия тарифа</p>
+                <a href="">Подключить</a>
+            </article>
+            <article>
+                <h2>Тариф 2</h2>
+                <p>Условия тарифа</p>
+                <a href="">Подключить</a>
+            </article>
+            <article>
+                <h2>Тариф 3</h2>
+                <p>Условия тарифа</p>
+                <a href="">Подключить</a>
+            </article>
+        </section>
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="">VK</a>
+            <a href="">OK</a>
+        </div>
+    </footer>
+</body>
+</html>
