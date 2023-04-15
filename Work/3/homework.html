@@ -3,45 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Мой сайт</title>
+    <style>
+        header,article, footer, div {
+            border: 1px solid;
+            margin: 5px;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+        article {
+            width: 300px;
+            height: 600px;
+        }
+        div {
+            width: 100%;
+            height: 600px;
+        }
+        header, footer {
+            height: 150px;
+        }
+    </style>
 </head>
 <body>
     <header>
-<!--        <p>Шапка сайта</p>-->
-        <ul>
-            <li>Шапка сайта</li>
-            <li><img src="../2/img/mike.jpg" alt="image" height="100"></li>
-        </ul>
-
+        Шапка сайта
+        <img src="../2/img/mike.jpg" alt="image" height="100">
     </header>
     <main>
-        <aside-left>
+        <article>
             <ul>
                 <li>Элемент списка 1</li>
                 <li>Элемент списка 2</li>
                 <li>Элемент списка 3</li>
                 <li>Элемент списка 4</li>
             </ul>
-        </aside-left>
-        <div class="center">
+        </article>
+        <div>
             Наш контент
         </div>
-        <aside-right>
+        <article>
             <ul>
                 <li>Элемент списка 1</li>
                 <li>Элемент списка 2</li>
                 <li>Элемент списка 3</li>
                 <li>Элемент списка 4</li>
             </ul>
-        </aside-right>
+        </article>
     </main>
     <footer>
         <form>
-            <label for="fio">ФИО</label>
-            <input id="fio" type="text"><br>
-            <label for="date">Выберите дату</label>
-            <input id="date" type="date"><br>
-            <label for="color">Выберите цвет</label>
-            <input id="color" type="color">
+            <label>
+                ФИО
+                <input type="text"><br>
+            </label>
+            <label>
+                Выберите дату
+                <input type="date"><br>
+            </label>
+            <label>
+                Выберите цвет
+                <input type="color">
+            </label>
+
         </form>
     </footer>
 </body>
