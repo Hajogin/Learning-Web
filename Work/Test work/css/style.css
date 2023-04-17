@@ -1,12 +1,25 @@
-header, main, footer, article,div {
+header, main, footer, article {
     border: 1px solid;
     margin-top: 10px;
 }
+header > div > img {
+    width: 100px;
+
+}
+nav > a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-flex;
+    text-align: center;
+    background-image: url("../img/wood.png");
+}
+
 main {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     gap: 10px;
+    background-image: url("../img/");
 }
 article {
     width: 300px;
@@ -16,4 +29,10 @@ div {
 }
 div img {
     width: 33%;
+}
+.scale:hover {
+    transform: scale(1.2);
+}
+h1, h3 {
+    text-align: center;
 }

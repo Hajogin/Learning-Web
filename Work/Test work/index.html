@@ -8,13 +8,15 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.svg" alt="Логотип компании">
+        <div>
+            <img src="img/logo.svg" alt="Логотип компании">
+        </div>
         <nav>
             <a href="#info">Информация о туристическом агенстве</a>
             <a href="#photo">Фото с туров</a>
-            <a href="#form">Форма обращения</a>
+            <a href="#form">Форма бронирования</a>
         </nav>
-        <h2>Туристическое агенство "Travel"</h2>
+        <h1>Туристическое агенство "Travel"</h1>
     </header>
     <main>
         <article>
@@ -48,9 +50,9 @@
                 <h1>Раздел №2</h1>
                 <h3>Фото с туров</h3>
                 <div>
-                    <img src="img/1.jpg" alt="">
-                    <img src="img/2.jpg" alt="">
-                    <img src="img/3.jpg" alt="">
+                    <img class="scale" src="img/1.jpg" alt="">
+                    <img class="scale" src="img/2.jpg" alt="">
+                    <img class="scale" src="img/3.jpg" alt="">
                 </div>
             </section>
             <section class="form" id="form">
@@ -60,15 +62,15 @@
                     <label>
                         ФИО
                         <input type="text" name="fullname" placeholder="Ваше ФИО">
-                    </label>
+                    </label><br>
                     <label>
                         Ваш номер телефона
                         <input type="tel" name="phone" placeholder="Ваш номер телефона">
-                    </label>
+                    </label><br>
                     <label>
                         Выберите дату тура
                         <input type="date">
-                    </label>
+                    </label><br>
                     <label>
                         Укажите количество человек
                         <select>
@@ -84,15 +86,15 @@
                             <option>10</option>
                         </select>
                     </label><br>
-                    <div>
-                        Выберите дополнительные услуги<br>
+                    <fieldset>
+                        <legend>Выберите дополнительные услуги</legend>
                         <input type="checkbox">Продажа авиа- и ж/д-билетов<br>
                         <input type="checkbox">Трансфер в аэропорт<br>
                         <input type="checkbox">Помощь в оформлении загранпаспорта<br>
                         <input type="checkbox">Организация фотосессий за границей<br>
                         <input type="checkbox">Туры в кредит<br>
                         <input type="checkbox">Дополнительное страхование
-                    </div>
+                    </fieldset>
                     <button>Заказать</button>
                 </form>
             </section>
