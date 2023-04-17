@@ -1,0 +1,19 @@
+header, main, footer, article,div {
+    border: 1px solid;
+    margin-top: 10px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+article {
+    width: 300px;
+}
+div {
+    width: 100%;
+}
+div img {
+    width: 33%;
+}
