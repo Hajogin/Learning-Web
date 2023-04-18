@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*a[target="_blank"] {*/
+/*    color: red;*/
+/*}*/
+/*a[href^="https"] {*/
+/*    color: red;*/
+/*}*/
+/*a[href$="com"] {*/
+/*    color: red;*/
+/*}*/
+/*a[href*="book"] {*/
+/*    color: gray;*/
+/*}*/
+/*a[class|="anchor"] {*/
+/*    color: blue;*/
+/*}*/
+/*form input:not([type="submit"]):not([type="password"]) {*/
+/*    color: blue;*/
+/*}*/
+/*form input:checked {*/
+/*    color: red;*/
+/*}*/
+/*form input:disabled {*/
+/*    background: red;*/
+/*}*/
+/*a:hover {*/
+/*    color: #8953ff;*/
+/*}*/
+/*a:visited {*/
+/*    color: #b15f1b;*/
+/*}*/
+body {
+    width: 800px;
+    height: 400vh;
+    border: 2px solid blue;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+:root {
+    font-size: 1pc;
+}
+nav {
+    width: 250px;
+    height: 100%;
+    font-size: 10pt;
+    border: 3px solid black;
+    /*border-radius: 25px 50% 3px 1.2em;*/
+    border-radius: 13em/25px;
+    margin-top: 15px;
+    padding: 50px;
+    background-color: #b15f1b;
+}
+nav a {
+    font-size: 2.5rem;
+}
+nav::after {
+    content: "<<<";
+}
+nav::before {
+    content: ">>>";
+}
+nav a:hover {
+    color: rgba(0, 0, 255, .3);
+}
