@@ -1,0 +1,25 @@
+/*.text {*/
+/*    color: green;*/
+/*}*/
+/*p, span {*/
+/*    color: red;*/
+/*}*/
+/*#color-blue, .text {*/
+/*    color: darkviolet;*/
+/*}*/
+* {
+    padding: 0;
+    margin: 0;
+}
+div {
+    border: 2px solid;
+}
+.box {
+    padding: 10px;
+}
+.item {
+    background: #4fdbaa;
+}
+.item:nth-child(2) {
+    margin: 10px 0;
+}
