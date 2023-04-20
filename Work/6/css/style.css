@@ -1,0 +1,18 @@
+.blue_text {
+    color: #0000FF;
+}
+.red_text {
+    color: red;
+}
+#italic_style {
+    font-style: italic;
+}
+.green_bg {
+    background: #44b14f;
+}
+.blue_bg {
+    background: #0694ea;
+}
+.red_bg {
+    background: #b12817;
+}
