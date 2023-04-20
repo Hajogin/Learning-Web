@@ -27,7 +27,7 @@ section:hover {
     transform: rotate(180deg);
 }
 @keyframes animation_name {
-    from { left: 0px: }
+    from { left: 0px; }
     to { left: 300px; }
 }
 @keyframes box_animation {
