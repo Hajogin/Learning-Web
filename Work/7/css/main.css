@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background: #81ff8b;
+    padding: 20px;
+    margin: 100px;
+    }
+.item {
+    height: 100px;
+}
+.item:first-child {
+    background: #ecff73;
+    width: 50%;
+    position: relative;
+    left: -40px;
+    top: 40px;
+    z-index: 1;
+}
+.item:nth-child(2) {
+    background: #56ffff;
+    z-index: 2;
+    position: relative;
+}
+.item:last-child {
+    background: #e737ff;
+}
