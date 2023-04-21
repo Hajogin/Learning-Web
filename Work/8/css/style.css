@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+.logo-name svg {
+    width: 50px;
+}
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-name p span:first-child {
+    color: #21b027;
+}
+.logo-name p span:last-child {
+    color: #384ec1;
+}
+.logo-name p span {
+    font-size: 26px;
+    font-weight: 600;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo-name-link {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
