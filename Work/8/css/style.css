@@ -5,8 +5,17 @@
 body {
     font-family: Roboto, sans-serif;
 }
+a {
+    text-decoration: none;
+    color: #2F2F2F;
+    transition: .2s linear;
+}
+a:hover {
+    color: #e5492d;
+}
 .logo-name svg {
     width: 50px;
+    transition: 1s linear;
 }
 .logo-name {
     display: flex;
@@ -27,9 +36,66 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 100px;
+    box-shadow: 0 1px 10px;
 }
 .header-logo-name-link {
     display: flex;
     align-items: center;
     gap: 50px;
+}
+.logo-name svg:hover {
+    transform: rotate(360deg);
+}
+.header-logo-name-link nav {
+    display: flex;
+    gap: 20px;
+}
+.header-search input {
+    padding: 2px 5px;
+    border-radius: 8px;
+    outline: 2px solid #384ec1;
+    border: none;
+}
+.header-search input:focus {
+    border-radius: 8px;
+    outline: 2px solid #e5492d;
+}
+.form {
+    border-radius: 15px;
+    box-shadow: -2px 0 5px;
+    max-width: 500px;
+    padding: 15px;
+}
+.form * {
+    width: 100%;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 100px;
+    background: #767274;
+    color: #D8D8D8;
+}
+.footer-box-links p {
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 10px;
+}
+.footer-container-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.footer-container-link-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
