@@ -98,13 +98,15 @@ footer {
 .footer-logo-link {
     display: flex;
     align-items: center;
-    gap: 50px;
+    flex: 2;
 
 }
 .footer-logo-img {
     display: flex;
+    flex: 1;
     }
 .footer-link {
     display: flex;
     gap: 20px;
+    flex: 1;
 }
