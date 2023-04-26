@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #dab600;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+.header-logo-nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.logo img {
+    width: 200px;
+}
+nav {
+    display: flex;
+    gap: 50px;
+    font-family: Arial, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header-main {
+    display: flex;
+    justify-content: center;
+
+}
+.info {
+    border: 1px solid;
+}
+.info-logo {
+    border: 1px solid;
+}
+.info-logo img {
+    width: 40%;
+}
