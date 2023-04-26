@@ -9,6 +9,13 @@ else {
     echo "Переменная а меньше нуля";
 }
 
-
+$number = 1233456;
+if ($number % 2 == 0)
+{
+    echo "Число $number четное";
+}
+else {
+    echo "Число $number не четное";
+}
 
 ?>

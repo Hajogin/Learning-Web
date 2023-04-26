@@ -39,11 +39,47 @@
 //$a = (true || false); // true логическое ИЛИ
 
 // Операции присваивания
-$a = 12;
-echo "$a <br>";
-$a += 5;
-echo $a;
+//$a = 12;
+//echo "$a <br>";
+//$a += 5;
+//echo $a;
+
+// Операторы сравнения
+//== < > <= >= ===
 
 
+var_dump(5/1);
+echo "<br>";
+var_dump(1/5);
+echo "<br>";
+var_dump(3**4);
+echo "<br>";
+var_dump(4%3);
+echo "<br>";
+$userName = "вася";
+var_dump("Доброе утро, " . $userName . "!");
+echo "<br>";
+var_dump(!1);
+echo "<br>";
+var_dump(!0);
+echo "<br>";
+var_dump(!true);
+echo "<br>";
+var_dump(2 && 3);
+echo "<br>";
+var_dump(5 && 0);
+echo "<br>";
+var_dump(3 || 0);
+
+echo "<br>";
+var_dump('5' == 5);
+echo "<br>";
+var_dump('5' === 5);
+echo "<br>";
+var_dump('05' == 5);
+echo "<br>";
+var_dump('0.5' == 5);
+echo "<br>";
+var_dump('05' == '5');
 
 ?>
