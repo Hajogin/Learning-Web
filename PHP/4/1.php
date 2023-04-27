@@ -49,8 +49,40 @@
 //$result = substr_count($string, "М");
 //echo $result;
 
-$string = "Hello World!";
-$result = strrev($string);
-echo $result;
+//$string = "Hello World!";
+//$result = strrev($string);
+//echo $result;
+
+$name1 = "Иван";
+$name2 = "Петр";
+$name3 = "Василий";
+$name4 = "Дмитрий";
+
+//$message1 = "<p>Добрый день, $name1!</p>";
+//$message2 = "<p>Добрый день, $name2!</p>";
+//$message3 = "<p>Добрый день, $name3!</p>";
+//$message4 = "<p>Добрый день, $name4!</p>";
+//
+//echo $message1;
+//echo $message2;
+//echo $message3;
+//echo $message4;
+
+// Рефакторинг 1 (упрощение записи кода)
+//$message = "<p>Добрый день, $name1!</p>";
+//$message = $message."<p>Добрый день, $name2!</p>";
+//$message = $message."<p>Добрый день, $name3!</p>";
+//$message = $message."<p>Добрый день, $name4!</p>";
+
+//echo $message;
+
+// Рефакторинг 2
+$message = "<p>Добрый день, $name1!</p>";
+$message .= "<p>Добрый день, $name2!</p>";
+$message .= "<p>Добрый день, $name3!</p>";
+$message .= "<p>Добрый день, $name4!</p>";
+
+echo $message;
+
 
 ?>
