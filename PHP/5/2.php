@@ -32,18 +32,52 @@
 //$result = fun_sum(10, 11);
 //echo $result;
 
-function fun_sum($a, $b) {
-    $sum = $a + $b;
-//    echo "$sum<br>";
-    return $sum;
+//function fun_sum($a, $b) {
+//    $sum = $a + $b;
+////    echo "$sum<br>";
+//    return $sum;
+//}
+//
+//$result = fun_sum(5, 6);
+//if ($result === null) {
+//    echo "result равен null";
+//}
+//else {
+//    echo "result не равен null";
+//}
+
+
+//$arrayNumber = [1, -14, 57, 0, -3, -4, 13 ];
+//foreach ($arrayNumber as $value) {
+//    if ($value>0) {
+//        echo "$value, ";
+//    }
+//}
+function showArray($arr)
+{
+    foreach ($arr as $value) {
+        echo "$value, ";
+    }
+}
+function positiveNumber($number) {
+    if ($number > 0){
+        return true;
+    }else {
+        return false;
+    }
 }
 
-$result = fun_sum(5, 6);
-if ($result === null) {
-    echo "result равен null";
+$arrayNumber = [];
+
+for ($i=0; $i < 100; $i++) {
+    $arrayNumber[] = random_int(-50, 50);
 }
-else {
-    echo "result не равен null";
-}
+echo "<h2>Массив</h2>";
+
+showArray($arrayNumber);
+
+echo "<h2>Массив только положительных элементов</h2>";
+
+showArray(array_filter($arrayNumber, "positiveNumber"));
 
 ?>

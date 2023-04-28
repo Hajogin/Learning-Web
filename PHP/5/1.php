@@ -34,9 +34,29 @@
 //$countries["Китай"] = "Пекин";
 //echo $countries["Китай"];
 
-$countries = ["Германия" => "Берлин", "Франция" => "Париж", "Россия" => "Москва"];
-foreach ($countries as $key => $value) {
-    echo "$key : $value<br>";
+//$countries = ["Германия" => "Берлин", "Франция" => "Париж", "Россия" => "Москва"];
+//foreach ($countries as $key => $value) {
+//    echo "$key : $value<br>";
+//}
+
+
+$user = [
+    "name" => "Иванов Иван Иванович",
+    "age" => 25,
+    "address" => "г. Москва, ул. Академика Королева",
+    "sex" => "мужской"
+];
+//echo "Пользователь: $user[name], возраст: $user[age], $user[address]";
+
+foreach ($user as $key => $value) {
+    echo "$value, ";
 }
+
+
+
+
+
+
+
 
 ?>
